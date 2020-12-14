@@ -23,3 +23,18 @@ print('3. Diskon 5% untuk pembelian diatas Rp 250000,-')
 
 print()
 pilihan = int(input('Masukkan pilihan (1/2/3/4) ? : '))
+
+if pilihan ==1 :
+    hargaBunga = 75000
+elif pilihan ==2 :
+    hargaBunga = 75000
+elif pilihan ==3 :
+    hargaBunga = 150000
+elif pilihan ==4 :
+    hargaBunga = 110000
+else :
+    print()
+    print('Maaf paket yang Anda pilih tidak tersedia')
+    print('Atas nama Toko Bunga ARNA kami mengucapkan Terimakasih')
+    sys.exit()
+    
