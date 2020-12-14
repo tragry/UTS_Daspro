@@ -1,0 +1,10 @@
+# PROGRAM PEMBELIAN DI TOKO BUNGA ARNA
+# OLEH MELINA WIDIASTUTIK DAN TIARA ANGGREYANI
+
+
+import sys
+
+print('\t\t\t\t==============================')
+print('\t\t\t\t       TOKO BUNGA ARNA')
+print('\t\t\t\t==============================')
+print()
