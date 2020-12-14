@@ -72,7 +72,3 @@ print('HARGA AKHIR        : Rp.%d' %hargaAkhir)
 
 print()
 print('Terimakasih Atas Kunjungan Anda !!!!')
-
-
-
-
