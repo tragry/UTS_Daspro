@@ -16,3 +16,10 @@ print('\t\t\t3. Bunga Melati Jasmine  : Rp 150.000,-')
 print('\t\t\t4. Bunga Mawar aneka warna : Rp 110.000,-')
 print()
 
+print('Toko Bunga ARNA memberikan diskon : ')
+print('1. Diskon 25% untuk pembelian diatas Rp 500.000,-')
+print('2. Diskon 10% untuk pembelian diatas Rp 350.000,-')
+print('3. Diskon 5% untuk pembelian diatas Rp 250000,-')
+
+print()
+pilihan = int(input('Masukkan pilihan (1/2/3/4) ? : '))
