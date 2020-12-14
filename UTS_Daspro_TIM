@@ -54,3 +54,19 @@ else :
 jumlahDiskon = pembelanjaan * diskon/100
 
 hargaAkhir = pembelanjaan - jumlahDiskon
+
+print()
+print('\t\t\t\tRekap Pembelanjaan Anda')
+print('\t\t\t\t========================')
+print()
+print('Pilihan Paket    : %d'%pilihan)
+print('Harga Paket      : Rp.%d'%hargaBunga)
+print('Jumlah Pembelian :  %d Bunga'%jumlah)
+print('Pembelanjaan     : Rp.%d'%pembelanjaan)
+print('Diskon           : %d%%'%diskon)
+print('Jumlah Diskon    : %d'%jumlahDiskon)
+print('-----------------------------------')
+print('HARGA AKHIR      : Rp.%d'%hargaAkhir)
+
+print()
+print('Terimakasih Atas Kunjungan Anda !!!')
