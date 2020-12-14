@@ -38,3 +38,19 @@ else :
     print('Atas nama Toko Bunga ARNA kami mengucapkan Terimakasih')
     sys.exit()
     
+jumlah = int(input('Berapa Banyak Yang Mau di Beli? :'))
+
+pembelanjaan = hargaBunga*jumlah
+    
+if pembelanjaan > 500000 :
+    diskon = 25
+elif pembelanjaan > 350000 :
+    diskon = 10
+elif pembelanjaan > 250000 :
+    diskon = 5
+else :
+    diskon = 0
+    
+jumlahDiskon = pembelanjaan * diskon/100
+
+hargaAkhir = pembelanjaan - jumlahDiskon
