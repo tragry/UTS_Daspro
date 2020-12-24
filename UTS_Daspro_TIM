@@ -9,22 +9,22 @@ print('\t\t\t\t       TOKO BUNGA ARNA')
 print('\t\t\t\t==============================')
 print()
 
-print('TOKO BUNGA ARNA MENYEDIAKAN  : ')
-print('\t\t\t1. Bunga Kaktus          : Rp 75.000,-')
-print('\t\t\t2. Bunga Matahari        : Rp 75.000,-')
-print('\t\t\t3. Bunga Melati Jasmine  : Rp 150.000,-')
+print('TOKO BUNGA ARNA MENYEDIAKAN      : ')
+print('\t\t\t1. Bunga Kaktus            : Rp 75.000,-')
+print('\t\t\t2. Bunga Matahari          : Rp 75.000,-')
+print('\t\t\t3. Bunga Melati Jasmine    : Rp 150.000,-')
 print('\t\t\t4. Bunga Mawar aneka warna : Rp 110.000,-')
 print()
 
 print('Toko Bunga ARNA memberikan diskon : ')
 print('1. Diskon 25% untuk pembelian diatas Rp 500.000,-')
 print('2. Diskon 10% untuk pembelian diatas Rp 350.000,-')
-print('3. Diskon 5% untuk pembelian diatas Rp 250000,-')
+print('3. Diskon 5% untuk pembelian diatas Rp 250.000,-')
 
 print()
 pilihan = int(input('Masukkan pilihan (1/2/3/4) ? : '))
 
-if pilihan ==1 :
+if pilihan ==1   :
     hargaBunga = 75000
 elif pilihan ==2 :
     hargaBunga = 75000
@@ -42,7 +42,7 @@ jumlah = int(input('Berapa Banyak Yang Mau di Beli? :'))
 
 pembelanjaan = hargaBunga*jumlah
     
-if pembelanjaan > 500000 :
+if pembelanjaan   > 500000 :
     diskon = 25
 elif pembelanjaan > 350000 :
     diskon = 10
@@ -53,7 +53,7 @@ else :
     
 jumlahDiskon = pembelanjaan * diskon/100
 
-hargaAkhir = pembelanjaan - jumlahDiskon
+hargaAkhir   = pembelanjaan - jumlahDiskon
 
 print()
 print('\t\t\t\tRekap Pembelanjaan Anda')
@@ -61,7 +61,7 @@ print('\t\t\t\t========================')
 print()
 print('Pilihan Paket    : %d'%pilihan)
 print('Harga Paket      : Rp.%d'%hargaBunga)
-print('Jumlah Pembelian :  %d Bunga'%jumlah)
+print('Jumlah Pembelian : %d Bunga'%jumlah)
 print('Pembelanjaan     : Rp.%d'%pembelanjaan)
 print('Diskon           : %d%%'%diskon)
 print('Jumlah Diskon    : %d'%jumlahDiskon)
